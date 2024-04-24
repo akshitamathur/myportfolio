@@ -1,0 +1,15 @@
+.styling {
+  background-color: #fb8500 !important;
+  font-weight: 800;
+  color: black;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.nav-link:hover {
+  color: white !important;
+}
