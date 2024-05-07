@@ -9,7 +9,9 @@ function App() {
   return (
     <>
       <Root />
-      <h4>Home Page</h4>
+      <div className="col-6 title">
+        <h1>Home Page</h1>
+      </div>
     </>
   );
 }

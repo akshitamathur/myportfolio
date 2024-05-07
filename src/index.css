@@ -107,6 +107,13 @@
   font-style: italic;
 }
 
+/* COLOURS 
+Dark Blue: #023047
+Teal Blue: #219EBC
+Light Blue: #8ECAE6
+Orange: #FB8500
+Yellow Gold: #FFB703 */
+
 body {
   background-color: #023047;
   color: white;
@@ -115,14 +122,10 @@ body {
   font-style: normal;
 }
 
-Navbar {
-  background-color: #fb8500;
-  color: black;
+h1 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #8ecae6;
+  text-transform: uppercase;
 }
-
-/* COLOURS 
-Dark Blue: #023047
-Teal Blue: #219EBC
-Light Blue: #8ECAE6
-Orange: #FB8500
-Yellow Gold: #FFB703 */
