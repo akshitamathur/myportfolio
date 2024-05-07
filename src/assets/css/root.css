@@ -1,15 +1,25 @@
 .styling {
-  background-color: #fb8500 !important;
+  background-color: #023047 !important;
   font-weight: 800;
-  color: black;
-  padding: 1rem;
+  color: white;
+
   text-transform: uppercase;
+  width: 100%;
 }
 
 .nav-link {
-  color: black !important;
+  color: white !important;
 }
 
 .nav-link:hover {
-  color: white !important;
+  color: #fb8500 !important;
+  border: #023047 !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("../icons/hamburger.png") !important;
+}
+
+.navbar-toggler {
+  border: white solid 1px !important;
 }

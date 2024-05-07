@@ -1,26 +1,52 @@
-import Navbar from "react-bootstrap/Nav";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import Offcanvas from "react-bootstrap/Offcanvas";
 import "../assets/css/root.css";
 
-export default function Root() {
+function Root() {
   return (
     <>
-      <Navbar className="styling" variant="tabs" defaultActiveKey="/">
-        <Navbar.Item>
-          <Navbar.Link href="/home">Home</Navbar.Link>
-        </Navbar.Item>
-        <Navbar.Item>
-          <Navbar.Link href="/experience">Experience</Navbar.Link>
-        </Navbar.Item>
-        <Navbar.Item>
-          <Navbar.Link href="/blog">Blog</Navbar.Link>
-        </Navbar.Item>
-        <Navbar.Item>
-          <Navbar.Link href="/projects">Projects</Navbar.Link>
-        </Navbar.Item>
-        <Navbar.Item>
-          <Navbar.Link href="/connect">Contact</Navbar.Link>
-        </Navbar.Item>
-      </Navbar>
+      {[false].map((expand) => (
+        <Navbar key={expand} expand={expand} className="mb-3 styling">
+          <Container fluid>
+            <Navbar.Brand href="/">Logo Goes Here</Navbar.Brand>
+            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+            <Navbar.Offcanvas
+              id={`offcanvasNavbar-expand-${expand}`}
+              aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
+              placement="end"
+            >
+              <Offcanvas.Header closeButton>
+                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
+                  AKSHITA MATHUR
+                </Offcanvas.Title>
+              </Offcanvas.Header>
+              <Offcanvas.Body className="styling">
+                <Nav>
+                  <Nav.Item>
+                    <Nav.Link href="/">Home</Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item>
+                    <Nav.Link href="/experience">Experience</Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item>
+                    <Nav.Link href="/blog">Blog</Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item>
+                    <Nav.Link href="/projects">Projects</Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item>
+                    <Nav.Link href="/connect">Connect</Nav.Link>
+                  </Nav.Item>
+                </Nav>
+              </Offcanvas.Body>
+            </Navbar.Offcanvas>
+          </Container>
+        </Navbar>
+      ))}
     </>
   );
 }
+
+export default Root;
