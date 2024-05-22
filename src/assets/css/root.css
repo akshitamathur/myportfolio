@@ -1,10 +1,11 @@
 .styling {
-  background-color: #023047 !important;
+  background-color: #219ebc !important;
   font-weight: 800;
   color: white;
-
+  padding: 1rem !important;
   text-transform: uppercase;
-  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .nav-link {

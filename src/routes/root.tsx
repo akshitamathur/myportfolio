@@ -8,7 +8,11 @@ function Root() {
   return (
     <>
       {[false].map((expand) => (
-        <Navbar key={expand} expand={expand} className="mb-3 styling">
+        <Navbar
+          key={expand}
+          expand={expand}
+          className="mb-3 styling animate__animated animate__fadeInDown"
+        >
           <Container fluid>
             <Navbar.Brand href="/">Logo Goes Here</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />

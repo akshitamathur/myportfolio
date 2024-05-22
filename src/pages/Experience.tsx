@@ -1,6 +1,9 @@
 import Root from "../routes/root";
+import JobBoard from "../components/jobboard";
+import { Container, Row, Col } from "react-bootstrap";
+
 function Experience() {
-  const title = "Experience page";
+  // const content = Data.work;
 
   return (
     <>
@@ -8,7 +11,31 @@ function Experience() {
 
       <div className="section mt-5">
         <div className="ctabackground">
-          <h2 className="mb-5">{title}</h2>
+          <h1 className="h1Heading mb-5 animate__animated animate__flipInX animate__delay-1s">
+            Experience
+          </h1>
+          <Container>
+            <Row>
+              <Col md={4}>
+                <JobBoard jobId={0}></JobBoard>
+              </Col>
+              <Col md={4}>
+                <JobBoard jobId={1}></JobBoard>
+              </Col>
+              <Col md={4}>
+                <JobBoard jobId={2}></JobBoard>
+              </Col>
+              <Col md={4}>
+                <JobBoard jobId={3}></JobBoard>
+              </Col>
+              <Col md={4}>
+                <JobBoard jobId={4}></JobBoard>
+              </Col>
+              {/* <Col md={4}>
+                <JobBoard jobId={5}></JobBoard>
+              </Col> */}
+            </Row>
+          </Container>
         </div>
       </div>
     </>

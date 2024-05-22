@@ -9,6 +9,8 @@ import Blog from "./pages/Blog.tsx";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
+import "animate.css";
+
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([

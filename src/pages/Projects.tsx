@@ -1,4 +1,5 @@
 import Root from "../routes/root";
+import ProjectBoard from "../components/projectboard";
 function Projects() {
   const title = "Projects page";
 
@@ -7,7 +8,10 @@ function Projects() {
       <Root />
       <div className="section mt-5">
         <div className="ctabackground">
-          <h2 className="mb-5">{title}</h2>
+          <h1 className="h1Heading mb-5 animate__animated animate__flipInX animate__delay-1s">
+            Projects
+          </h1>
+          <ProjectBoard></ProjectBoard>
         </div>
       </div>
     </>

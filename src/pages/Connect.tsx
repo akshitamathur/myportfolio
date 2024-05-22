@@ -8,7 +8,9 @@ function Connect() {
       <Root />
       <div className="section mt-5">
         <div className="ctabackground">
-          <h2 className="mb-5">{title}</h2>
+          <h1 className="h1Heading mb-5 animate__animated animate__flipInX animate__delay-1s">
+            Connect
+          </h1>
         </div>
       </div>
     </>

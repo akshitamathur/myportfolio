@@ -1,0 +1,9 @@
+i {
+  color: #023047;
+  font-size: 3rem;
+}
+
+i:hover {
+  color: #fb8500;
+  cursor: pointer;
+}

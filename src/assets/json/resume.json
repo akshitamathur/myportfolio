@@ -7,7 +7,7 @@
     "phone": "647-524-4660",
     "degree": "Bachelor of Science",
     "website": "akshitamathur.com",
-    "summary": "A one-sentence to one-paragraph overview text. Do not include any line-breaks.",
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacinia ipsum eu nunc euismod tincidunt. Etiam non mi et risus tristique laoreet quis eget augue. Pellentesque vitae blandit diam. Curabitur a venenatis urna, id aliquet libero. Etiam laoreet laoreet tortor, in rutrum tortor lacinia non. Nunc dapibus ligula suscipit, semper enim vel, vehicula nunc. Mauris vel arcu venenatis, bibendum leo eget, condimentum lorem. Sed eu luctus dolor. Pellentesque tempus eros lacus, ac auctor mauris tristique sed. Aenean convallis tellus nec magna elementum, eu congue justo tincidunt. Vivamus interdum aliquam justo sed aliquam.",
     "location": {
       "address": "1 Candyland Lane",
       "postalCode": "M5E 2A1",
@@ -15,57 +15,92 @@
       "countryCode": "Canada",
       "region": "Ontario"
     },
-    "profiles": [
+    "titles": [
       {
-        "network": "LinkedIn",
-        "username": "devakshitamathur",
-        "url": "A URL to your user profile page"
+        "name": "SharePoint"
       },
       {
-        "network": "Instagram",
-        "username": "akinatortor",
-        "url": "A URL to your user profile page"
+        "name": "Web"
       },
       {
-        "network": "Twitter",
-        "username": "akshitamathur",
-        "url": "A URL to your user profile page"
+        "name": "Front-End"
       },
       {
-        "network": "GitHub",
-        "username": "akshitamathur",
-        "url": "A URL to your user profile page"
+        "name": "Shopify"
+      },
+      {
+        "name": "vue"
+      },
+      {
+        "name": "React"
       }
     ]
   },
+
+  "socials": [
+    {
+      "network": "LinkedIn",
+      "username": "devakshitamathur",
+      "url": "A URL to your user profile page"
+    },
+    {
+      "network": "Instagram",
+      "username": "akinatortor",
+      "url": "A URL to your user profile page"
+    },
+    {
+      "network": "Twitter",
+      "username": "akshitamathur",
+      "url": "A URL to your user profile page"
+    },
+    {
+      "network": "GitHub",
+      "username": "akshitamathur",
+      "url": "A URL to your user profile page"
+    }
+  ],
+
   "work": [
     {
+      "key": 0,
       "company": "OCAD University",
-      "logo": "",
+      "logo": "https://media.licdn.com/dms/image/D560BAQFtIWVec5MvZg/company-logo_200_200/0/1709842337362/ocad_university_logo?e=2147483647&v=beta&t=kq5oa3k_Atk0pgfIu_4n1bAznZ1OLyfYKrwbSNG84ek",
       "position": "Web Developer",
       "website": "The URL for the employer's website",
-      "startDate": "Dec 2021 - Current",
-      "endDate": "Your end date, in YYY-MM-DD format (leave blank for a current position)",
+      "startDate": "Dec 2021",
+      "endDate": "Current",
       "summary": "A one-sentence to one-paragraph summary of this employer or position",
       "highlights": [
-        "Bullet-point list items that you would like to include along with (or instead of) a summary paragraph."
+        { "list": "bullet 1" },
+        { "list": "bullet 2" },
+        { "list": "bullet 3" }
       ]
     },
     {
+      "key": 1,
       "company": "Humber College",
-      "logo": "",
+      "logo": "https://media.licdn.com/dms/image/C560BAQH8AVxoMioMlA/company-logo_200_200/0/1675469571723/humber_innovative_learning_logo?e=2147483647&v=beta&t=uh4Ea6_IGy_UgAg7MjpeJzzt5hihOezbzPoYc6cdU0I",
       "position": "Web Developer",
-      "website": "The URL for the employer's website",
-      "startDate": "Your start date, in YYYY-MM-DD format",
-      "endDate": "Your end date, in YYY-MM-DD format (leave blank for a current position)",
+      "website": "https://humber.ca/innovativelearning/",
+      "startDate": "Jul 2022",
+      "endDate": "Mar 2024",
       "summary": "A one-sentence to one-paragraph summary of this employer or position",
       "highlights": [
-        "Bullet-point list items that you would like to include along with (or instead of) a summary paragraph."
+        {
+          "list": "Creating pixel-perfect courses from Figma designs using HTML, CSS, and Javascript for BlackBoard"
+        },
+        {
+          "list": "Creating a sustainable course development process with current resources in the team to increase productivity, course output frequency, and quality"
+        },
+        {
+          "list": "Reorganization and improvements to the Innovative Learning WordPress site"
+        }
       ]
     },
     {
-      "company": "Humber College",
-      "logo": "",
+      "key": 2,
+      "company": "Janssen Inc.",
+      "logo": "https://media.licdn.com/dms/image/C4D0BAQG0V9OOxXc2sQ/company-logo_200_200/0/1631311649533?e=2147483647&v=beta&t=7JuULT8mQX60WPqf4X9TL3e50fshyS4I2BVsdfV8faE",
       "position": "Your job title",
       "website": "The URL for the employer's website",
       "startDate": "Your start date, in YYYY-MM-DD format",
@@ -76,8 +111,22 @@
       ]
     },
     {
-      "company": "Humber College",
-      "logo": "",
+      "key": 3,
+      "company": "BMO",
+      "logo": "https://media.licdn.com/dms/image/D560BAQGnW86OdUZ1Uw/company-logo_200_200/0/1688564309456/bank_of_montreal_logo?e=2147483647&v=beta&t=Cx0IS9XYGbDoGLGgc5xBQJEQ52eYDMd7X5SxEm6BaCk",
+      "position": "Your job title",
+      "website": "The URL for the employer's website",
+      "startDate": "Your start date, in YYYY-MM-DD format",
+      "endDate": "Your end date, in YYY-MM-DD format (leave blank for a current position)",
+      "summary": "A one-sentence to one-paragraph summary of this employer or position",
+      "highlights": [
+        "Bullet-point list items that you would like to include along with (or instead of) a summary paragraph."
+      ]
+    },
+    {
+      "key": 4,
+      "company": "PPG",
+      "logo": "https://media.licdn.com/dms/image/C4D0BAQELfIa-K8Dtiw/company-logo_200_200/0/1631115552669/ppg_industries_logo?e=2147483647&v=beta&t=xX04EIVXp7OmjIpUk3_g7iCL95YkV1GMn5Z6swJRYGw",
       "position": "Your job title",
       "website": "The URL for the employer's website",
       "startDate": "Your start date, in YYYY-MM-DD format",
@@ -140,6 +189,20 @@
     {
       "language": "Language name",
       "fluency": "Your language fluency"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Project Title",
+      "skills": "Main skills used: angular, html, css, javascript"
+    },
+    {
+      "title": "Project Title 2",
+      "skills": "Main skills used: react, html, css, javascript"
+    },
+    {
+      "title": "Project Title 3",
+      "skills": "Main skills used: vue, html, css, javascript"
     }
   ],
   "interests": [
