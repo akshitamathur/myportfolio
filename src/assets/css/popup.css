@@ -16,6 +16,10 @@ a {
   text-decoration: none !important;
 }
 
+.white{
+  color: white !important;
+}
+
 a:hover {
   color: orange !important;
   text-decoration: underline !important;
@@ -41,3 +45,5 @@ a:hover {
   margin: 0;
   padding-right: 12em;
 }
+
+

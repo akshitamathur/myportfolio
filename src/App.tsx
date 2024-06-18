@@ -56,8 +56,8 @@ function App() {
             <h1 className="h1Heading mb-5">{dataContent.name.toUpperCase()}</h1>
             <h3 className="title mb-5">
               {/* <span className="orange">{(element?.name)} </span> */}
-              {<span key={Math.random()} className="orange animate__animated animate__fadeIn animate__delay-3s">{jobTitles[currentTitle].name} </span>}
-              Developer
+              {<span key={Math.random()} className="orange animate__animated animate__fadeOut animate__delay-3s">{jobTitles[currentTitle].name} </span>}
+              <br/>Developer
             </h3>
             <p className="mb-5">{dataContent.summary}</p>
             <Socials />

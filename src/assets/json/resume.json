@@ -71,9 +71,9 @@
       "endDate": "Current",
       "summary": "A one-sentence to one-paragraph summary of this employer or position",
       "highlights": [
-        { "list": "bullet 1" },
-        { "list": "bullet 2" },
-        { "list": "bullet 3" }
+        {"list": "bullet 1"},
+        {"list": "bullet 2"},
+        {"list": "bullet 3"}
       ]
     },
     {

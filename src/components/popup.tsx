@@ -9,14 +9,18 @@ export const Popup = ({
   userId: number;
 }) => {
   const profile = Profile.work[userId];
-  const profiledeep = profile.highlights;
+  const profileDeep = profile.highlights;
+  
+  console.log(profileDeep.forEach(list => <p>{list.toString()}</p>));
+  console.log();
+
   return (
     <>
       <div className="modalContainer animate__animated animate__fadeIn">
         <div className="modalBody">
           <div className="modalHeading">
             <span onClick={() => onClose()} className="close">
-              <i className="bi bi-x-lg"></i>
+              <i className="animate__animated animate__fadeIn animate__delay-1s white bi bi-x-lg"></i>
             </span>
           </div>
           <div className="modalContent">
@@ -33,12 +37,10 @@ export const Popup = ({
 
                 <h4>{profile.summary}</h4>
 
-                {profiledeep.map((points) => {
-                  return (
-                    <p key={profiledeep[0].toString()}>{points.toString()};</p>
-                  );
-                  console.log(points.toString());
-                })}
+               <ul>{}</ul>
+               {profile.highlights.map(list => list.toString())}
+               
+               
               </div>
             </div>
           </div>
