@@ -9,10 +9,10 @@ export const Popup = ({
   userId: number;
 }) => {
   const profile = Profile.work[userId];
-  const profileDeep = profile.highlights;
+  const profileDeep = profile.highlights[userId];
   
-  console.log(profileDeep.forEach(list => <p>{list.toString()}</p>));
-  console.log();
+  console.log(profileDeep);
+  console.log("we are in popup");
 
   return (
     <>
@@ -38,7 +38,7 @@ export const Popup = ({
                 <h4>{profile.summary}</h4>
 
                <ul>{}</ul>
-               {profile.highlights.map(list => list.toString())}
+               {/* {profileDeep.map(list => <li>{list.valueOf().toString()}</li>)} */}
                
                
               </div>
