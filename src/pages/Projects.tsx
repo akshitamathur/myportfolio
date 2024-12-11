@@ -1,8 +1,10 @@
 import Root from "../routes/root";
-import ProjectBoard from "../components/projectboard";
 import Footer from "../components/footer";
+import {Container, Col, Row} from "react-bootstrap";
+import ProjectBoard from "../components/projectboard";
+
 function Projects() {
-  const title = "Projects page";
+  // const title = "Projects page";
 
   return (
     <>
@@ -12,9 +14,22 @@ function Projects() {
           <h1 className="h1Heading mb-5 animate__animated animate__flipInX animate__delay-1s">
             Projects
           </h1>
-          <ProjectBoard></ProjectBoard>
+          <Container>
+            <Row>
+              <Col md={4}>
+                <ProjectBoard projectId={0}></ProjectBoard>
+              </Col>
+              <Col md={4}>
+                <ProjectBoard projectId={1}></ProjectBoard>
+              </Col>
+              {/* <Col md={4}>
+                <JobBoard jobId={5}></JobBoard>
+              </Col> */}
+            </Row>
+          </Container>
         </div>
       </div>
+
       <Footer/>
     </>
   );

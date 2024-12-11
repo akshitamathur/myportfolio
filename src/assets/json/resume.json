@@ -180,19 +180,94 @@
   ],
   "projects": [
     {
+      "key": 0,
       "title": "Angular Portfolio",
-      "skills": "HTML, CSS, Javascript, Angular",
-      "link": "https://www.google.ca"
+      "mainImg": "https://www.researchgate.net/publication/331161841/figure/fig5/AS:780778933866499@1563163612240/Dashboard-website-52-Air-Temperature-Sensors.ppm",
+      "link": "Web Developer",
+      "github": "https://www.ocadu.ca/",
+      "date": "Dec 2021",
+      "summary": "Creating pages, events and marketing campaign assets for web. Creating custom elements, content types for drupal site, and managing and keeping up to date with tickets.",
+      "highlights": [
+        "Creating custom content types for newly built Drupal website.",
+        "Expertise in the full Adobe Master Suite, including Photoshop, Illustrator, InDesign and XD.",
+        "Excellent time management, and communication skills to manage requests from internal business partners regarding events. All completed while meeting industry and accessibility standards."
+      ],
+      "techSkills": ["HTML","CSS","JavaScript","Drupal","Figma","Pantheon","SharePoint","Git","Node"]
     },
     {
+      "key": 1,
       "title": "React Portfolio",
-      "skills": "HTML, CSS, Typescript/Javascript, React, node.js",
-      "link": "https://www.google.ca"
+      "mainImg": "https://www.researchgate.net/publication/331161841/figure/fig5/AS:780778933866499@1563163612240/Dashboard-website-52-Air-Temperature-Sensors.ppm",
+      "link": "Web Developer",
+      "github": "https://www.ocadu.ca/",
+      "date": "Dec 2021",
+      "summary": "Creating pages, events and marketing campaign assets for web. Creating custom elements, content types for drupal site, and managing and keeping up to date with tickets.",
+      "highlights": [
+        "Creating custom content types for newly built Drupal website.",
+        "Expertise in the full Adobe Master Suite, including Photoshop, Illustrator, InDesign and XD.",
+        "Excellent time management, and communication skills to manage requests from internal business partners regarding events. All completed while meeting industry and accessibility standards."
+      ],
+      "techSkills": ["HTML","CSS","JavaScript","Drupal","Figma","Pantheon","SharePoint","Git","Node"]
     },
     {
-      "title": "vue.js Project",
-      "skills": "HTML, CSS, TypeScript/JavaScript, vue.js, node.js",
-      "link": "https://www.google.ca"
+      "key": 2,
+      "title": "Two Portfolio",
+      "mainImg": "https://media.licdn.com/dms/image/D560BAQFtIWVec5MvZg/company-logo_200_200/0/1709842337362/ocad_university_logo?e=2147483647&v=beta&t=kq5oa3k_Atk0pgfIu_4n1bAznZ1OLyfYKrwbSNG84ek",
+      "link": "Web Developer",
+      "github": "https://www.ocadu.ca/",
+      "date": "Dec 2021",
+      "summary": "Creating pages, events and marketing campaign assets for web. Creating custom elements, content types for drupal site, and managing and keeping up to date with tickets.",
+      "highlights": [
+        "Creating custom content types for newly built Drupal website.",
+        "Expertise in the full Adobe Master Suite, including Photoshop, Illustrator, InDesign and XD.",
+        "Excellent time management, and communication skills to manage requests from internal business partners regarding events. All completed while meeting industry and accessibility standards."
+      ],
+      "techSkills": ["HTML","CSS","JavaScript","Drupal","Figma","Pantheon","SharePoint","Git","Node"]
+    },
+    {
+      "key": 3,
+      "title": "Three Portfolio",
+      "mainImg": "https://media.licdn.com/dms/image/D560BAQFtIWVec5MvZg/company-logo_200_200/0/1709842337362/ocad_university_logo?e=2147483647&v=beta&t=kq5oa3k_Atk0pgfIu_4n1bAznZ1OLyfYKrwbSNG84ek",
+      "link": "Web Developer",
+      "github": "https://www.ocadu.ca/",
+      "date": "Dec 2021",
+      "summary": "Creating pages, events and marketing campaign assets for web. Creating custom elements, content types for drupal site, and managing and keeping up to date with tickets.",
+      "highlights": [
+        "Creating custom content types for newly built Drupal website.",
+        "Expertise in the full Adobe Master Suite, including Photoshop, Illustrator, InDesign and XD.",
+        "Excellent time management, and communication skills to manage requests from internal business partners regarding events. All completed while meeting industry and accessibility standards."
+      ],
+      "techSkills": ["HTML","CSS","JavaScript","Drupal","Figma","Pantheon","SharePoint","Git","Node"]
+    },
+    {
+      "key": 4,
+      "title": "Four Portfolio",
+      "mainImg": "https://media.licdn.com/dms/image/D560BAQFtIWVec5MvZg/company-logo_200_200/0/1709842337362/ocad_university_logo?e=2147483647&v=beta&t=kq5oa3k_Atk0pgfIu_4n1bAznZ1OLyfYKrwbSNG84ek",
+      "link": "Web Developer",
+      "github": "https://www.ocadu.ca/",
+      "date": "Dec 2021",
+      "summary": "Creating pages, events and marketing campaign assets for web. Creating custom elements, content types for drupal site, and managing and keeping up to date with tickets.",
+      "highlights": [
+        "Creating custom content types for newly built Drupal website.",
+        "Expertise in the full Adobe Master Suite, including Photoshop, Illustrator, InDesign and XD.",
+        "Excellent time management, and communication skills to manage requests from internal business partners regarding events. All completed while meeting industry and accessibility standards."
+      ],
+      "techSkills": ["HTML","CSS","JavaScript","Drupal","Figma","Pantheon","SharePoint","Git","Node"]
+    },
+    {
+      "key": 5,
+      "title": "Five Portfolio",
+      "mainImg": "https://media.licdn.com/dms/image/D560BAQFtIWVec5MvZg/company-logo_200_200/0/1709842337362/ocad_university_logo?e=2147483647&v=beta&t=kq5oa3k_Atk0pgfIu_4n1bAznZ1OLyfYKrwbSNG84ek",
+      "link": "Web Developer",
+      "github": "https://www.ocadu.ca/",
+      "date": "Dec 2021",
+      "summary": "Creating pages, events and marketing campaign assets for web. Creating custom elements, content types for drupal site, and managing and keeping up to date with tickets.",
+      "highlights": [
+        "Creating custom content types for newly built Drupal website.",
+        "Expertise in the full Adobe Master Suite, including Photoshop, Illustrator, InDesign and XD.",
+        "Excellent time management, and communication skills to manage requests from internal business partners regarding events. All completed while meeting industry and accessibility standards."
+      ],
+      "techSkills": ["HTML","CSS","JavaScript","Drupal","Figma","Pantheon","SharePoint","Git","Node"]
     }
   ],
   "interests": [

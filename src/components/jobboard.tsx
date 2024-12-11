@@ -1,7 +1,7 @@
 import Data from "../assets/json/resume.json";
 import "../assets/css/jobboard.css";
 
-import Popup from "../components/popup";
+import Popup from "./jobpopup";
 import { useState } from "react";
 
 function JobBoard({ jobId }: { jobId: number }) {
