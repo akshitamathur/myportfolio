@@ -7,10 +7,10 @@
     "phone": "647-524-4660",
     "degree": "Bachelor of Science",
     "website": "akshitamathur.com",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacinia ipsum eu nunc euismod tincidunt. Etiam non mi et risus tristique laoreet quis eget augue. Pellentesque vitae blandit diam. Curabitur a venenatis urna, id aliquet libero. Etiam laoreet laoreet tortor, in rutrum tortor lacinia non. Nunc dapibus ligula suscipit, semper enim vel, vehicula nunc. Mauris vel arcu venenatis, bibendum leo eget, condimentum lorem. Sed eu luctus dolor. Pellentesque tempus eros lacus, ac auctor mauris tristique sed. Aenean convallis tellus nec magna elementum, eu congue justo tincidunt. Vivamus interdum aliquam justo sed aliquam.",
+    "summary": "Welcome in! I've created this portfolio to share my experience and projects that I've completed over the years as a web developer. Allow me to introduce myself! I'm a developer, focused primarily on front-end development, who has over 7+ years of experience in various spaces, stacks and working environments. Take a look around and don't hesitate to leave a message before you go - whether it's about the site, or if you'd just like to connect. Don't forget to take a look at the Blog tag to look at what I'm up to outside of the work of development!",
     "location": {
       "address": "1 Candyland Lane",
-      "postalCode": "M5E 2A1",
+      "postalCode": "M5E 5A1",
       "city": "Toronto",
       "countryCode": "Canada",
       "region": "Ontario"
@@ -39,24 +39,19 @@
 
   "socials": [
     {
-      "network": "LinkedIn",
-      "username": "devakshitamathur",
-      "url": "A URL to your user profile page"
-    },
-    {
       "network": "Instagram",
-      "username": "akinatortor",
-      "url": "A URL to your user profile page"
+      "username": "snippityclicks",
+      "url": "https://www.instagram.com/snippityclicks/"
     },
     {
-      "network": "Twitter",
-      "username": "akshitamathur",
-      "url": "A URL to your user profile page"
+      "network": "LinkedIn",
+      "username": "developerakshitamathur",
+      "url": "https://www.linkedin.com/in/developerakshitamathur/"
     },
     {
       "network": "GitHub",
       "username": "akshitamathur",
-      "url": "A URL to your user profile page"
+      "url": "https://github.com/akshitamathur"
     }
   ],
 
@@ -66,15 +61,16 @@
       "company": "OCAD University",
       "logo": "https://media.licdn.com/dms/image/D560BAQFtIWVec5MvZg/company-logo_200_200/0/1709842337362/ocad_university_logo?e=2147483647&v=beta&t=kq5oa3k_Atk0pgfIu_4n1bAznZ1OLyfYKrwbSNG84ek",
       "position": "Web Developer",
-      "website": "The URL for the employer's website",
+      "website": "https://www.ocadu.ca/",
       "startDate": "Dec 2021",
       "endDate": "Current",
-      "summary": "A one-sentence to one-paragraph summary of this employer or position",
+      "summary": "Creating pages, events and marketing campaign assets for web. Creating custom elements, content types for drupal site, and managing and keeping up to date with tickets.",
       "highlights": [
-        {"list": "bullet 1"},
-        {"list": "bullet 2"},
-        {"list": "bullet 3"}
-      ]
+        "Creating custom content types for newly built Drupal website.",
+        "Expertise in the full Adobe Master Suite, including Photoshop, Illustrator, InDesign and XD.",
+        "Excellent time management, and communication skills to manage requests from internal business partners regarding events. All completed while meeting industry and accessibility standards."
+      ],
+      "techSkills": ["HTML","CSS","JavaScript","Drupal","Figma","Pantheon","SharePoint"]
     },
     {
       "key": 1,
@@ -84,38 +80,39 @@
       "website": "https://humber.ca/innovativelearning/",
       "startDate": "Jul 2022",
       "endDate": "Mar 2024",
-      "summary": "A one-sentence to one-paragraph summary of this employer or position",
+      "summary": "Creating Blackboard courses while ensuring full accessibility standards are met (including screen reader testing). Managing and completing a complete structural, and design overhall of department WordPress site.",
       "highlights": [
-        {
-          "list": "Creating pixel-perfect courses from Figma designs using HTML, CSS, and Javascript for BlackBoard"
-        },
-        {
-          "list": "Creating a sustainable course development process with current resources in the team to increase productivity, course output frequency, and quality"
-        },
-        {
-          "list": "Reorganization and improvements to the Innovative Learning WordPress site"
-        }
-      ]
+        "Enforced agile development process which increased course build completion by 75%, and brought down post build remediation by 90%"
+        ,
+        "Course packages created with HTML, LESS/SASS, JS and PHP with pixel perfect implemented from Figma design files."
+        ,
+        "Increased traffic to department webpage by over 25%, and increased overall user satisfaction by 50% by restructuring content. Also ensure AODA compliance be met at the AA level."
+        
+      ],
+      "techSkills": ["HTML","CSS","JavaScript","WordPress","Figma","Pantheon","SharePoint"]
     },
     {
       "key": 2,
       "company": "Janssen Inc.",
       "logo": "https://media.licdn.com/dms/image/C4D0BAQG0V9OOxXc2sQ/company-logo_200_200/0/1631311649533?e=2147483647&v=beta&t=7JuULT8mQX60WPqf4X9TL3e50fshyS4I2BVsdfV8faE",
-      "position": "Your job title",
-      "website": "The URL for the employer's website",
-      "startDate": "Your start date, in YYYY-MM-DD format",
-      "endDate": "Your end date, in YYY-MM-DD format (leave blank for a current position)",
-      "summary": "A one-sentence to one-paragraph summary of this employer or position",
+      "position": "Sharepoint Developer / Data Analyst",
+      "website": "",
+      "startDate": "May 2016",
+      "endDate": "June 2022",
+      "summary": "Analyzing data and creating internal SharePoint sites for new drug trials while ensuring security of data within internal and external parties.",
       "highlights": [
-        "Bullet-point list items that you would like to include along with (or instead of) a summary paragraph."
-      ]
+       "Communicate and capture site requirements with internal shareholders, as well as external clients (Health Canada) to ensure secure, compliant and timely launch of clicial trial data sites."
+        ,
+        "Increased efficiency of data upload to system by almost 60% by using Power Automate, Dataiku and other Power Apps to automate an otherwise fully manual process."
+      ],
+      "techSkills": ["SharePoint","C#","HTML","CSS","JavaScript","Dataiku","Power Automate"]
     },
     {
       "key": 3,
       "company": "BMO",
       "logo": "https://media.licdn.com/dms/image/D560BAQGnW86OdUZ1Uw/company-logo_200_200/0/1688564309456/bank_of_montreal_logo?e=2147483647&v=beta&t=Cx0IS9XYGbDoGLGgc5xBQJEQ52eYDMd7X5SxEm6BaCk",
-      "position": "Your job title",
-      "website": "The URL for the employer's website",
+      "position": "SharePoint Developer",
+      "website": "",
       "startDate": "Your start date, in YYYY-MM-DD format",
       "endDate": "Your end date, in YYY-MM-DD format (leave blank for a current position)",
       "summary": "A one-sentence to one-paragraph summary of this employer or position",
@@ -152,11 +149,11 @@
   ],
   "education": [
     {
-      "institution": "Your school name",
-      "area": "Your area of study or degree earned",
-      "studyType": "",
-      "startDate": "Your start date, in YYYY-MM-DD format",
-      "endDate": "Your completion date, in YYYY-MM-DD format",
+      "institution": "York University",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science",
+      "startDate": "2017",
+      "endDate": "2021",
       "gpa": "",
       "courses": [""]
     }
@@ -169,15 +166,6 @@
       "summary": "A one-sentence to one-paragraph overview of this award"
     }
   ],
-  "publications": [
-    {
-      "name": "Your publication title",
-      "publisher": "Publisher name",
-      "releaseDate": "Publication date, in YYYY-MM-DD format",
-      "website": "The website URL for this publisher or book",
-      "summary": "A one-sentence to one-paragraph overview of this publication"
-    }
-  ],
   "skills": [
     {
       "name": "A category of job skills (e.g. 'Programming Languages')",
@@ -187,30 +175,58 @@
   ],
   "languages": [
     {
-      "language": "Language name",
-      "fluency": "Your language fluency"
+      "language": "English",
+      "fluency": "Native"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Native"
+    },
+    {
+      "language": "French",
+      "fluency": "Intermediate"
+    },
+    {
+      "language": "Japanese",
+      "fluency": "Beginner"
     }
   ],
   "projects": [
     {
-      "title": "Project Title",
-      "skills": "Main skills used: angular, html, css, javascript"
+      "title": "Angular Portfolio",
+      "skills": "HTML, CSS, Javascript, Angular",
+      "link": "https://www.google.ca"
     },
     {
-      "title": "Project Title 2",
-      "skills": "Main skills used: react, html, css, javascript"
+      "title": "React Portfolio",
+      "skills": "HTML, CSS, Typescript/Javascript, React, node.js",
+      "link": "https://www.google.ca"
     },
     {
-      "title": "Project Title 3",
-      "skills": "Main skills used: vue, html, css, javascript"
+      "title": "vue.js Project",
+      "skills": "HTML, CSS, TypeScript/JavaScript, vue.js, node.js",
+      "link": "https://www.google.ca"
     }
   ],
   "interests": [
     {
-      "name": "A category of interests (e.g. 'Sports')",
-      "keywords": [
-        "Keywords under this category (e.g. 'Cricket', 'Football', 'Golf')"
+      "name": "Anime",
+      "specifics": [
+        "Inuyasha", "One Piece", "Ouran High School Host Club", "My Hero Academia", "Solo Leveling"
+      ]
+    },
+    {
+      "name": "Music",
+      "specifics": [
+        "Hip Hop", "Pop", "Classical Piano", "R&B"
+      ]
+    },
+    {
+      "name": "Reading",
+      "specifics": [
+        "A Court of Thorns and Roses", "Twilight", "Game of Thrones"
       ]
     }
+
   ]
 }

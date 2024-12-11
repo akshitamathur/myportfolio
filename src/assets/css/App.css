@@ -20,3 +20,7 @@
 .orange {
   color: #fb8500;
 }
+
+.mainImageSize{
+  height: 70% !important;
+}

@@ -9,9 +9,8 @@ export const Popup = ({
   userId: number;
 }) => {
   const profile = Profile.work[userId];
-  const profileDeep = profile.highlights[userId];
   
-  console.log(profileDeep);
+
   console.log("we are in popup");
 
   return (
@@ -37,8 +36,14 @@ export const Popup = ({
 
                 <h4>{profile.summary}</h4>
 
-               <ul>{}</ul>
-               {/* {profileDeep.map(list => <li>{list.valueOf().toString()}</li>)} */}
+               <ul>{profile.highlights.map((list) => (
+                    <li>{list}</li>
+                 ))}</ul>
+               <p>
+                {profile.techSkills?.map((skill) => (
+                   <span>{skill}, </span>
+                ))}
+               </p>
                
                
               </div>

@@ -1,4 +1,5 @@
 import Root from "../routes/root";
+import Footer from "../components/footer";
 
 function Connect() {
   const title = "Connect page";
@@ -13,6 +14,7 @@ function Connect() {
           </h1>
         </div>
       </div>
+      <Footer/>
     </>
   );
 }

@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Data from "./assets/json/resume.json";
 import "./assets/css/App.css";
 import Root from "./routes/root";
+import Footer from "./components/footer";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Socials from "./components/socials";
 
@@ -37,15 +38,16 @@ function App() {
       <Container>
         <Row>
           <Col
-            className="p-4 mainImage text-center mt-5 animate__animated animate__fadeIn animate__delay-1s"
+            className="mainImage text-center animate__animated animate__fadeIn animate__delay-1s"
             md
             lg={5}
           >
             <Image
-              alt="A vector image of a girl in a dress giving the peace sign with the right hand."
-              src="src/assets/imgs/home/mainImage.png"
+              className="mainImageSize"
+              alt="Me! In Banff, with the rocky mountains in the background."
+              src="src/assets/imgs/home/mainImage2.jpeg"
               fluid
-              width="300"
+              
             />
           </Col>
           <Col
@@ -56,7 +58,7 @@ function App() {
             <h1 className="h1Heading mb-5">{dataContent.name.toUpperCase()}</h1>
             <h3 className="title mb-5">
               {/* <span className="orange">{(element?.name)} </span> */}
-              {<span key={Math.random()} className="orange animate__animated animate__fadeOut animate__delay-3s">{jobTitles[currentTitle].name} </span>}
+              {<span key={Math.random()} className="orange animate__animated animate__backOutDown animate__delay-3s">{jobTitles[currentTitle].name} </span>}
               <br/>Developer
             </h3>
             <p className="mb-5">{dataContent.summary}</p>
@@ -64,6 +66,7 @@ function App() {
           </Col>
         </Row>
       </Container>
+      <Footer/>
     </>
   );
 }

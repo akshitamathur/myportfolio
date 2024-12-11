@@ -1,5 +1,6 @@
 import Root from "../routes/root";
 import ProjectBoard from "../components/projectboard";
+import Footer from "../components/footer";
 function Projects() {
   const title = "Projects page";
 
@@ -14,6 +15,7 @@ function Projects() {
           <ProjectBoard></ProjectBoard>
         </div>
       </div>
+      <Footer/>
     </>
   );
 }

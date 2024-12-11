@@ -1,6 +1,7 @@
 import Root from "../routes/root";
 import JobBoard from "../components/jobboard";
 import { Container, Row, Col } from "react-bootstrap";
+import Footer from "../components/footer";
 
 function Experience() {
   // const content = Data.work;
@@ -38,6 +39,7 @@ function Experience() {
           </Container>
         </div>
       </div>
+      <Footer/>
     </>
   );
 }
