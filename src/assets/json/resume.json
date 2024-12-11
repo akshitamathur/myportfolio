@@ -64,13 +64,14 @@
       "website": "https://www.ocadu.ca/",
       "startDate": "Dec 2021",
       "endDate": "Current",
+      "location": "Toronto, ON",
       "summary": "Creating pages, events and marketing campaign assets for web. Creating custom elements, content types for drupal site, and managing and keeping up to date with tickets.",
       "highlights": [
         "Creating custom content types for newly built Drupal website.",
         "Expertise in the full Adobe Master Suite, including Photoshop, Illustrator, InDesign and XD.",
         "Excellent time management, and communication skills to manage requests from internal business partners regarding events. All completed while meeting industry and accessibility standards."
       ],
-      "techSkills": ["HTML","CSS","JavaScript","Drupal","Figma","Pantheon","SharePoint"]
+      "techSkills": ["HTML","CSS","JavaScript","Drupal","Figma","Pantheon","SharePoint","Git","Node"]
     },
     {
       "key": 1,
@@ -80,6 +81,7 @@
       "website": "https://humber.ca/innovativelearning/",
       "startDate": "Jul 2022",
       "endDate": "Mar 2024",
+      "location": "Toronto, ON",
       "summary": "Creating Blackboard courses while ensuring full accessibility standards are met (including screen reader testing). Managing and completing a complete structural, and design overhall of department WordPress site.",
       "highlights": [
         "Enforced agile development process which increased course build completion by 75%, and brought down post build remediation by 90%"
@@ -89,7 +91,7 @@
         "Increased traffic to department webpage by over 25%, and increased overall user satisfaction by 50% by restructuring content. Also ensure AODA compliance be met at the AA level."
         
       ],
-      "techSkills": ["HTML","CSS","JavaScript","WordPress","Figma","Pantheon","SharePoint"]
+      "techSkills": ["HTML","CSS","JavaScript","WordPress","Figma","Pantheon","SharePoint","GitHub"]
     },
     {
       "key": 2,
@@ -99,13 +101,14 @@
       "website": "",
       "startDate": "May 2016",
       "endDate": "June 2022",
+      "location": "Toronto, ON",
       "summary": "Analyzing data and creating internal SharePoint sites for new drug trials while ensuring security of data within internal and external parties.",
       "highlights": [
        "Communicate and capture site requirements with internal shareholders, as well as external clients (Health Canada) to ensure secure, compliant and timely launch of clicial trial data sites."
         ,
         "Increased efficiency of data upload to system by almost 60% by using Power Automate, Dataiku and other Power Apps to automate an otherwise fully manual process."
       ],
-      "techSkills": ["SharePoint","C#","HTML","CSS","JavaScript","Dataiku","Power Automate"]
+      "techSkills": ["SharePoint","C#","HTML","CSS","JavaScript","SQL","Dataiku","Power Automate"]
     },
     {
       "key": 3,
@@ -113,38 +116,31 @@
       "logo": "https://media.licdn.com/dms/image/D560BAQGnW86OdUZ1Uw/company-logo_200_200/0/1688564309456/bank_of_montreal_logo?e=2147483647&v=beta&t=Cx0IS9XYGbDoGLGgc5xBQJEQ52eYDMd7X5SxEm6BaCk",
       "position": "SharePoint Developer",
       "website": "",
-      "startDate": "Your start date, in YYYY-MM-DD format",
-      "endDate": "Your end date, in YYY-MM-DD format (leave blank for a current position)",
-      "summary": "A one-sentence to one-paragraph summary of this employer or position",
+      "startDate": "November 2020",
+      "endDate": "May 2021",
+      "location": "Toronto, ON",
+      "summary": "Migrated company SharePoint microsites from 2013 to Online, while continuing to create custom SharePoint solutions for internal shareholders.",
       "highlights": [
-        "Bullet-point list items that you would like to include along with (or instead of) a summary paragraph."
-      ]
+        "Completed migration of all Sharepoint sites 2 months sooner than anticipated.",
+        "100% original functionality maintained on mirgrated sites, with the creation of custom webparts for depreciated assets from 2013 to Online SharePoint."
+      ],
+      "techSkills": ["SharePoint","C#","HTML","CSS","JavaScript","SQL",".NET","Git"]
     },
     {
       "key": 4,
       "company": "PPG",
       "logo": "https://media.licdn.com/dms/image/C4D0BAQELfIa-K8Dtiw/company-logo_200_200/0/1631115552669/ppg_industries_logo?e=2147483647&v=beta&t=xX04EIVXp7OmjIpUk3_g7iCL95YkV1GMn5Z6swJRYGw",
-      "position": "Your job title",
-      "website": "The URL for the employer's website",
-      "startDate": "Your start date, in YYYY-MM-DD format",
-      "endDate": "Your end date, in YYY-MM-DD format (leave blank for a current position)",
-      "summary": "A one-sentence to one-paragraph summary of this employer or position",
+      "position": "Front-End Developer / Shopify Developer",
+      "website": "https://www.johnstonespaint.com/",
+      "startDate": "May 2020",
+      "endDate": "October 2020",
+      "location": "Pittsburgh, PA, USA",
+      "summary": "Produced a Shopify site from scratch, buildling off of wireframes and consultations with stakeholders, including custom Liquify and Javascript components. Ensured accessibility quotas met on collection of enterprise level websites for the company.",
       "highlights": [
-        "Bullet-point list items that you would like to include along with (or instead of) a summary paragraph."
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Your volunteer organization name",
-      "position": "Your job title",
-      "website": "The URL for the employer's website",
-      "startDate": "Your start date, in YYYY-MM-DD format",
-      "endDate": "Your end date, in YYY-MM-DD format (leave blank for a current position)",
-      "summary": "A one-sentence to one-paragraph summary of this employer or position",
-      "highlights": [
-        "Bullet-point list items that you would like to include along with (or instead of) a summary paragraph."
-      ]
+        "Pushed Shopify storefront in only a months time during peak COVID time, allowing for key advantage over competitors.",
+        "Ensured accessibility compliance for enterprise sites was maintained at least 95% compliance at all times. (Brought up from initial 70% compiance rate average across the board.)"
+      ],
+      "techSkills": ["HTML","CSS","JavaScript","Liquid","Shopify",".NET MVC","SQL","Git","Node"]
     }
   ],
   "education": [
@@ -153,24 +149,15 @@
       "area": "Computer Science",
       "studyType": "Bachelor of Science",
       "startDate": "2017",
-      "endDate": "2021",
-      "gpa": "",
-      "courses": [""]
+      "endDate": "2021"
     }
   ],
-  "awards": [
+  "certifications": [
     {
       "title": "Your award title",
       "date": "Your date, in YYYY-MM-DD format you received the award",
       "awarder": "Your award given by",
       "summary": "A one-sentence to one-paragraph overview of this award"
-    }
-  ],
-  "skills": [
-    {
-      "name": "A category of job skills (e.g. 'Programming Languages')",
-      "level": "",
-      "keywords": ["Keywords under this category (e.g. 'Java', 'C++', etc)"]
     }
   ],
   "languages": [

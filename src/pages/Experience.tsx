@@ -11,7 +11,7 @@ function Experience() {
       <Root />
 
       <div className="section mt-5">
-        <div className="ctabackground">
+        <div className="">
           <h1 className="h1Heading mb-5 animate__animated animate__flipInX animate__delay-1s">
             Experience
           </h1>
@@ -26,6 +26,7 @@ function Experience() {
               <Col md={4}>
                 <JobBoard jobId={2}></JobBoard>
               </Col>
+              <Col md={2}></Col>
               <Col md={4}>
                 <JobBoard jobId={3}></JobBoard>
               </Col>

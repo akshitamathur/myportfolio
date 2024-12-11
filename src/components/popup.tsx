@@ -11,7 +11,7 @@ export const Popup = ({
   const profile = Profile.work[userId];
   
 
-  console.log("we are in popup");
+  // console.log("we are in popup");
 
   return (
     <>
@@ -28,20 +28,22 @@ export const Popup = ({
                 <img src={profile.logo} width="100%" />
               </div>
               <div className="col-8">
-                <h1>{profile.position}</h1>
-                <h2>
-                  <a href={profile.website}>{profile.company}</a>,{" "}
-                  {profile.startDate} - {profile.endDate}
+                <h1 className="text-center">{profile.position},{" "}<em><a href={profile.website}>{profile.company}</a></em></h1>
+                <h2 className="text-center">
+                  {profile.startDate} - {profile.endDate} 
                 </h2>
+                <h4 className="text-center">{profile.location}</h4>
+<p></p>
+                <p><strong>{profile.summary}</strong></p>
 
-                <h4>{profile.summary}</h4>
-
+                <p><u>Highlights</u></p>
                <ul>{profile.highlights.map((list) => (
                     <li>{list}</li>
                  ))}</ul>
-               <p>
+                 <p></p>
+               <p>Skills:{" "}
                 {profile.techSkills?.map((skill) => (
-                   <span>{skill}, </span>
+                   <em><span>{skill}, </span></em>
                 ))}
                </p>
                

@@ -9,6 +9,7 @@
   display: flex;
   padding: 4em 8em 0em 8em;
   z-index: 1000;
+  font-size: 1.3em;
 }
 
 a {
