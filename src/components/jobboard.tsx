@@ -1,7 +1,7 @@
 import Data from "../assets/json/resume.json";
 import "../assets/css/jobboard.css";
 
-import Popup from "./jobpopup";
+import JobPopup from "./jobpopup";
 import { useState } from "react";
 
 function JobBoard({ jobId }: { jobId: number }) {
@@ -17,7 +17,7 @@ function JobBoard({ jobId }: { jobId: number }) {
 
   return (
     <>
-      {ModalOpen && <Popup onClose={handleButtonClick} userId={jobId}></Popup>}
+      {ModalOpen && <JobPopup onClose={handleButtonClick} userId={jobId}></JobPopup>}
       <div className="section">
         <div className="row justify-content-center">
           <div className="logo animate__animated animate__fadeIn animate__delay-2s">
