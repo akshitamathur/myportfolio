@@ -3,7 +3,7 @@ import Footer from "../components/footer";
 import { Container, Col, Row } from "react-bootstrap";
 
 function Connect() {
-  const title = "Connect page";
+  // const title = "Connect page";
 
   return (
     <>

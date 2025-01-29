@@ -9,7 +9,7 @@ function Root() {
     <>
       {[false].map((expand) => (
         <Navbar
-          key={expand}
+          // key={expand}
           expand={expand}
           className="mb-3 styling animate__animated animate__fadeInDown"
         >
