@@ -182,9 +182,9 @@
     {
       "key": 0,
       "title": "Angular Portfolio",
-      "mainImg": "https://media.licdn.com/dms/image/v2/D4D12AQGVw0sVZ7Kj-g/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1673636348356?e=1739404800&v=beta&t=zAIDJ1fMT1-Up33IoETME_AfxXdXRSdDzh1VQAc0gtY",
-      "link": "Web Developer",
-      "github": "https://www.ocadu.ca/",
+      "mainImg": "/src/assets/imgs/projects/angularportfolio.png",
+      "link": "https://akshitamathur.github.io/akshitamathurportfoliov2.0/home",
+      "github": "https://github.com/akshitamathur/akshitamathurportfoliov2.0",
       "date": "Dec 2021",
       "summary": "Creating pages, events and marketing campaign assets for web. Creating custom elements, content types for drupal site, and managing and keeping up to date with tickets.",
       "highlights": [

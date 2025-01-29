@@ -21,6 +21,10 @@
   background-image: url("../icons/hamburger.png") !important;
 }
 
+.navbar-brand {
+  background-image: url("../icons/Logo.png") !important;
+}
+
 .navbar-toggler {
   border: white solid 1px !important;
 }

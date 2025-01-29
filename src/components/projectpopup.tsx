@@ -24,11 +24,12 @@ export const Popup = ({
           </div>
           <div className="modalContent">
             <div className="row">
-              <div className="col-3">
-                <img src={project.mainImg} width="100%" />
+              <div className="col-6">
+                <img src={project.mainImg} width="750"/>
               </div>
               <div className="col-8">
-                <h1 className="text-center">{project.title},{" "}<em><a href={project.link}>{project.github}</a></em></h1>
+                <h1 className="text-center">{project.title}</h1>
+                <h2 className="text-center"><em><a href={project.link}>Live View</a>  {"   "}|| {"   "} <a href={project.github}>Repo</a></em></h2>
                 <h2 className="text-center">
                   {project.date}
                 </h2>
