@@ -9,6 +9,7 @@ function Root() {
   return (
     <>
       {[false].map((expand) => (
+        <div key={expand}>
         <Navbar
           
           expand={expand}
@@ -48,7 +49,7 @@ function Root() {
               </Offcanvas.Body>
             </Navbar.Offcanvas>
           </Container>
-        </Navbar>
+        </Navbar></div>
       ))}
     </>
   );
