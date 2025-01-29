@@ -6,7 +6,7 @@ import Footer from "./components/footer";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Socials from "./components/socials";
 
-import testImage from "/src/assets/imgs/home/mainImage2.jpeg";
+// import testImage from "/src/assets/imgs/home/mainImage2.jpeg";
 
 function App() {
 
@@ -46,7 +46,7 @@ function App() {
             <Image
               className="mainImageSize"
               alt="Me! In Banff, with the rocky mountains in the background."
-              src={testImage}
+              src="/src/assets/imgs/home/mainImage2.jpeg"
               fluid
               
             />
