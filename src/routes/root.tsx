@@ -3,6 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import "../assets/css/root.css";
+import logo from "/icons/Logo.png";
 
 function Root() {
   return (
@@ -14,7 +15,7 @@ function Root() {
           className="mb-3 styling animate__animated animate__fadeInDown"
         >
           <Container fluid>
-            <Navbar.Brand href="/"><img src="/./src/assets/icons/Logo.png" height="50"></img></Navbar.Brand>
+            <Navbar.Brand href="/"><img src={logo} height="50"></img></Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}

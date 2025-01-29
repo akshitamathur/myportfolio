@@ -18,11 +18,11 @@
 }
 
 .navbar-toggler-icon {
-  background-image: url("../icons/hamburger.png") !important;
+  background-image: url("/icons/hamburger.png") !important;
 }
 
 .navbar-brand {
-  background-image: url("../icons/Logo.png") !important;
+  background-image: url("/icons/Logo.png") !important;
 }
 
 .navbar-toggler {

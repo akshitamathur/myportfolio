@@ -6,6 +6,8 @@ import Footer from "./components/footer";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Socials from "./components/socials";
 
+import mainImage from "/imgs/home/mainImage2.jpeg";
+
 function App() {
 
   const [currentTitle, setCurrentTitle] = useState(0);
@@ -44,7 +46,7 @@ function App() {
             <Image
               className="mainImageSize"
               alt="Me! In Banff, with the rocky mountains in the background."
-              src="/src/assets/imgs/home/mainImage2.jpeg"
+              src={mainImage}
               fluid
               
             />
