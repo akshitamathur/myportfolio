@@ -45,7 +45,7 @@ function App() {
             <Image
               className="mainImageSize"
               alt="Me! In Banff, with the rocky mountains in the background."
-              src="src/assets/imgs/home/mainImage2.jpeg"
+              src="./assets/imgs/home/mainImage2.jpeg"
               fluid
               
             />
