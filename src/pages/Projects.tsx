@@ -4,7 +4,7 @@ import {Container, Col, Row} from "react-bootstrap";
 import ProjectBoard from "../components/projectboard";
 
 function Projects() {
-  // const title = "Projects page";
+  
 
   return (
     <>

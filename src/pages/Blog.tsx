@@ -1,7 +1,7 @@
 import Root from "../routes/root";
 import Footer from "../components/footer";
 function Blog() {
-  // const title = "Blog page";
+  
 
   return (
     <>

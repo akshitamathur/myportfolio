@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Footer from "../components/footer";
 
 function Experience() {
-  // const content = Data.work;
+  
 
   return (
     <>
