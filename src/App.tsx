@@ -6,8 +6,6 @@ import Footer from "./components/footer";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Socials from "./components/socials";
 
-// import testImage from "/src/assets/imgs/home/mainImage2.jpeg";
-
 function App() {
 
   const [currentTitle, setCurrentTitle] = useState(0);

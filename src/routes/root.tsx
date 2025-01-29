@@ -14,7 +14,7 @@ function Root() {
           className="mb-3 styling animate__animated animate__fadeInDown"
         >
           <Container fluid>
-            <Navbar.Brand href="/"><img src="src/assets/icons/Logo.png" height="50"></img></Navbar.Brand>
+            <Navbar.Brand href="/"><img src="/src/assets/icons/Logo.png" height="50"></img></Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
